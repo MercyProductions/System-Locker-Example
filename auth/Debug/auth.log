@@ -1,0 +1,12 @@
+﻿  Source.cpp
+C:\Users\Mercy\Desktop\cURL Example\auth\Source.cpp(36,19): warning C4244: 'initializing': conversion from 'DWORDLONG' to 'uintptr_t', possible loss of data
+Source.obj : error LNK2019: unresolved external symbol _curl_global_init referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _curl_global_cleanup referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _curl_easy_strerror referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _curl_easy_init referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _curl_easy_setopt referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _curl_easy_perform referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _curl_easy_cleanup referenced in function _main
+C:\Users\Mercy\Desktop\cURL Example\auth\discord-files\discord_game_sdk.dll.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+curl\libcurl_a.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Mercy\Desktop\cURL Example\Debug\auth.exe : fatal error LNK1120: 7 unresolved externals
